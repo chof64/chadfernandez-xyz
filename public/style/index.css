@@ -4,7 +4,27 @@
 # HEADERS: font-family: 'Inter', sans-serif;
 # BODY: font-family: 'JetBrains Mono', monospace;
 */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&family=Space+Mono&display=swap');
+
+/* INDEX BACKGROUND ANIMATION */
+body {
+    background: linear-gradient(-45deg, #F6F2FF, #ACD5D7, #F6E1B6, #F9B19F);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 
 /* TOP NAVIGATION STYLES */
 .index-navigation {
@@ -21,7 +41,7 @@
 
 .index-navigation > nav > ul > li {
     display: inline-block;
-    margin: 0rem 1rem 0rem 1rem ;
+    margin: 0.2rem 1.2rem 0.2rem 1.2rem ;
 }
 
 .index-navigation > nav > ul > li > a {
@@ -50,7 +70,8 @@
 }
 
 .index-header > h1 > b {
-    color: #549F93;
+    font-weight: 600;
+    color: #235789;
 }
 
 .index-header > p {

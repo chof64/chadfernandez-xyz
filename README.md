@@ -19,6 +19,7 @@
 ### SITE
 - DOMAIN: [chadfernandez.xyz](https://chadfernandez.xyz)
 - HOSTING: [CloudlfarePages](https://www.cloudflare.com/)
+- COLOR PALETTE: <https://coolors.co/fdfffc-235789-549f93-e65f5c-000100>
 
 ## RESOURCES
 - <https://tympanus.net/codrops/2021/02/10/simple-css-line-hover-animations-for-links/>
