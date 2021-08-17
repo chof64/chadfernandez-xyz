@@ -1,23 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono');
+/* 
+# Importing fonts from Google Fonts
+# Font Families
+# HEADERS: font-family: 'Inter', sans-serif;
+# BODY: font-family: 'JetBrains Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&display=swap');
 
-
-:root {
-    font-family: 'JetBrains Mono',monospace;
+/* TOP NAVIGATION STYLES */
+.index-navigation {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem;
 }
 
-a {
-    color: inherit;
+.index-navigation > nav > ul {
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
 }
 
-header > div {
-    font-size: clamp(2rem, -0.462rem + 6.1856vw, 2.75rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.index-navigation > nav > ul > li {
+    display: inline-block;
+    margin: 0rem 1rem 0rem 1rem ;
 }
 
-header h1 {
-    font-family: 'Roboto Mono';
-    font-size: 1em;
-    font-weight: 500;
+.index-navigation > nav > ul > li > a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 0.2rem 0rem 0.2rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+    /* font-family: 'Inter',sans-serif; */
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+
+/* HEADER STYLES */
+.index-header {
+    margin: auto;   
+}
+
+.index-header > h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.index-header > h1 > b {
+    color: #549F93;
+}
+
+.index-header > p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* FOOTER STYLES */
+.index-footer {
+    margin: auto 0rem 0rem 0rem;
+    padding-top: 0rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+

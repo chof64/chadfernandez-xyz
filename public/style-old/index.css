@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono');
+
+
+:root {
+    font-family: 'JetBrains Mono',monospace;
+}
+
+a {
+    color: inherit;
+}
+
+header > div {
+    font-size: clamp(2rem, -0.462rem + 6.1856vw, 2.75rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Roboto Mono';
+    font-size: 1em;
+    font-weight: 500;
+}

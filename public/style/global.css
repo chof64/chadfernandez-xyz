@@ -1,30 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono:display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+/* 
+# Importing fonts from Google Fonts
+# Font Families
+# HEADERS: font-family: 'Inter', sans-serif;
+# BODY: font-family: 'JetBrains Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=JetBrains+Mono&display=swap');
 
 :root {
-  font-family: 'JetBrains Mono', 'Roboto Mono', monospace;  
-  font-size: 1rem;
-  --user-font-scale: 1rem - 16px;
-  font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    --user-font-scale: 1rem - 16px;
+    font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    height: 100%;
 }
 
 body {
-  padding: 4rem 2rem;
-  width: 100%;
-  min-height: 100vh;
-  display: grid;
-  justify-content: center;
-  background: #f9fafb;
-  color: #111827;
+    padding: 4rem 2rem;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background: #FDFFFC;
+    color: #000100;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #111827;
-    color: #fff;
-  }
+a {
+    color: #235789;
 }
+
+/* GLOBAL STYLES -- SELECT CLASSES */
+
+/* 
+# FOR LINKS - SIMPLE LINK UNDERLINE WHEN HOVER
+# https://codepen.io/gabrielcojea/pen/ExPaBzQ
+*/
+.underline-simple{
+    position: relative;
+}
+  
+.underline-simple::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-color: #235789;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+  
+@media (hover: hover) and (pointer: fine) {
+    .underline-simple:hover::before{
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
+
+/* DISABLING TEXT HIGHLIGHT */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
