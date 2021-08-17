@@ -1,40 +1,25 @@
-# Welcome to [Astro](https://astro.build)
+# Welcome to  [chadfernandez-xyz](https://chadfernandez.xyz)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> I am actually still learning web development. While I have a little
+> knowledge with HTML and CSS, I am still not able to create site without
+> opening lots of stackoverflow sites. 😅
 
-## 🚀 Project Structure
+## 📌 Project goals
+- Minimal website.
+- Simple
+- Amazing
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🎯 Project focuses
+- Create index.astro as a one page landing site.
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## ⚙️ Project Tech Specifics
+### CODE
+- Framework: [Astro](https://astro.build)
+- Languages: HTML, CSS
+### SITE
+- DOMAIN: [chadfernandez.xyz](https://chadfernandez.xyz)
+- HOSTING: [CloudlfarePages](https://www.cloudflare.com/)
+- COLOR PALETTE: <https://coolors.co/fdfffc-235789-549f93-e65f5c-000100>
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm start`     | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+## RESOURCES
+- <https://tympanus.net/codrops/2021/02/10/simple-css-line-hover-animations-for-links/>

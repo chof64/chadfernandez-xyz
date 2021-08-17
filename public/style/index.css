@@ -1,23 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono');
+/* 
+# Importing fonts from Google Fonts
+# Font Families
+# HEADERS: font-family: 'Inter', sans-serif;
+# BODY: font-family: 'JetBrains Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&family=Space+Mono&display=swap');
+
+/* INDEX BACKGROUND ANIMATION */
+body {
+    background: linear-gradient(-45deg, #F6F2FF, #ACD5D7, #F6E1B6, #F9B19F);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 
-:root {
-    font-family: 'JetBrains Mono',monospace;
+/* TOP NAVIGATION STYLES */
+.index-navigation {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem;
 }
 
-a {
-    color: inherit;
+.index-navigation > nav > ul {
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
 }
 
-header > div {
-    font-size: clamp(2rem, -0.462rem + 6.1856vw, 2.75rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.index-navigation > nav > ul > li {
+    display: inline-block;
+    margin: 0.2rem 1.2rem 0.2rem 1.2rem ;
 }
 
-header h1 {
-    font-family: 'Roboto Mono';
-    font-size: 1em;
-    font-weight: 500;
+.index-navigation > nav > ul > li > a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 0.2rem 0rem 0.2rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+    /* font-family: 'Inter',sans-serif; */
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+
+/* HEADER STYLES */
+.index-header {
+    margin: auto;   
+}
+
+.index-header > h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.index-header > h1 > b {
+    font-weight: 600;
+    color: #235789;
+}
+
+.index-header > p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* FOOTER STYLES */
+.index-footer {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
