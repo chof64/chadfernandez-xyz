@@ -1,3 +1,5 @@
+> 🚩 **This repository is not being used and developed anymore. And as of November 15, 2022, will be archived.** My personal website is now at [chof64/chadfernandez-me](https://github.com/chof64/chadfernandez-me), and was reworked from the ground up using Next.js and Tailwind CSS.
+
 # Welcome to  [chadfernandez-xyz](https://chadfernandez.xyz)
 
 > I am actually still learning web development. While I have a little
